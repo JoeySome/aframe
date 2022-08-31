@@ -22,14 +22,14 @@ module.exports.Component = registerComponent('device-orientation-permission-ui',
   schema: {
     enabled: {default: true},
     deviceMotionMessage: {
-      default: 'This immersive website requires access to your device motion sensors.'
+      default: '此沉浸式网站需要访问您的设备运动传感器'
     },
     httpsMessage: {
-      default: 'Access this site over HTTPS to enter VR mode and grant access to the device sensors.'
+      default: '通过HTTPS访问此站点以进入VR模式，并授予访问设备传感器的权限。'
     },
-    denyButtonText: {default: 'Deny'},
-    allowButtonText: {default: 'Allow'},
-    cancelButtonText: {default: 'Cancel'}
+    denyButtonText: {default: '拒绝'},
+    allowButtonText: {default: '允许'},
+    cancelButtonText: {default: '取消'}
   },
 
   init: function () {
