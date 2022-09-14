@@ -36,10 +36,12 @@ setup(function () {
       getDevice: function () { return {requestPresent: function () {}}; },
       isPresenting: function () { return true; },
       setDevice: function () {},
+      setFoveation: function () {},
       setPoseTarget: function () {},
       dispose: function () {},
       enabled: false
     },
+    dispose: function () {},
     getContext: function () { return undefined; },
     setAnimationLoop: function () {},
     setSize: function () {},
