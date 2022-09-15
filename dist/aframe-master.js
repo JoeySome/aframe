@@ -33336,7 +33336,7 @@ __webpack_require__(/*! ./extras/components/ */ "./src/extras/components/index.j
 
 __webpack_require__(/*! ./extras/primitives/ */ "./src/extras/primitives/index.js");
 
-console.log('A-Frame-custom Version: 1.3.1 (Date 2022-08-24, Commit #0fe1f286)');
+console.log('A-Frame-custom Version: 1.3.1 (Date 2022-09-15, LJ)');
 console.log('THREE Version (https://github.com/supermedium/three.js):', pkg.dependencies['super-three']);
 console.log('WebVR Polyfill Version:', pkg.dependencies['webvr-polyfill']);
 module.exports = window.AFRAME = {
